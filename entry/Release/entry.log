@@ -1,0 +1,37 @@
+﻿Build started 11/20/2014 6:40:48 PM.
+     1>Project "F:\Data\Documents\SummoningIgnite\entry\entry\entry.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Data\Programs\Visual Studio 2013\VC\bin\CL.exe /c /I..\dep\include /I..\ /I..\dep\include\lua /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(315): warning C4018: '>=' : signed/unsigned mismatch
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(323): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(324): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(330): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(433): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(485): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(785): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\data\documents\summoningignite\entry\entry\Packets.h(787): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Main.cpp(242): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Main.cpp(285): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(253) : see declaration of 'stricmp'
+     1>Main.cpp(315): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(253) : see declaration of 'stricmp'
+     1>Main.cpp(336): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 F:\Data\Programs\Visual Studio 2013\VC\include\string.h(253) : see declaration of 'stricmp'
+     1>Main.cpp(420): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         F:\Data\Programs\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Data\Documents\SummoningIgnite\entry\win\Release\entry.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\dep\lib ws2_32.lib "enet-1.2.5.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib lua.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Data\Documents\SummoningIgnite\entry\win\Release\entry.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Data\Documents\SummoningIgnite\entry\win\Release\entry.lib" /MACHINE:X86 /SAFESEH Release\Main.obj
+         "F:\Data\Documents\SummoningIgnite\entry\dep\lib\enet-1.2.5.lib"
+         F:\Data\Documents\SummoningIgnite\entry\win\VC100\intlib__Win32_Release\intlib.lib
+         Generating code
+         Finished generating code
+         entry.vcxproj -> F:\Data\Documents\SummoningIgnite\entry\win\Release\entry.exe
+     1>Done Building Project "F:\Data\Documents\SummoningIgnite\entry\entry\entry.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41
